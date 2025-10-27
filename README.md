@@ -1,4 +1,4 @@
-# 📝 Assignment 3 Report  
+# 📝 Mid Term Project 
 **Name:** Biswajit Gorai  
 **Roll No.:** MA24M009  
 **Title:** Development of an RNN-Transducer (RNN-T) ASR Model using PyTorch  
@@ -51,19 +51,9 @@ Training was performed with gradient clipping and dynamic batching to handle var
 
 ---
 
-## 📊 4. Results  
 
-| Metric | Value |
-|---------|--------|
-| Training Loss | 1.2488 |
-| Validation Loss | 0.8807 |
-| Validation WER | **0.7674 (76.74%)** |
 
-The model successfully learned alignment between acoustic and textual sequences. With extended training, the WER is expected to drop further.
-
----
-
-## ✅ 5. Conclusion  
+## ✅ 4. Conclusion  
 
 This project demonstrates the **development of an end-to-end RNN-T ASR model** using **PyTorch** and the **LibriSpeech 100-hour dataset**.  
 It covers all stages — data preprocessing, model design, training, and evaluation.  
